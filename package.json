@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-competitive-training",
+  "version": "1.0.0",
+  "description": "nodejs 实战",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spadefish/nodejs-competitive-training.git"
+  },
+  "keywords": [
+    "nodejs",
+    "es6"
+  ],
+  "author": "spadefish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spadefish/nodejs-competitive-training/issues"
+  },
+  "homepage": "https://github.com/Spadefish/nodejs-competitive-training#readme"
+}
