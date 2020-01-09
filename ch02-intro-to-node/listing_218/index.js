@@ -26,13 +26,14 @@ function countWordsInText(text) {
         .split(/\W+/)
         .sort()
     words
-        .filter(word => word)
+        .filter(word => word.startsWith('tom'))
         .forEach(word => addWordCount(word))
 }
 
+// fs.readdir 返回目录中的文件名的数组
 fs.readdir(filesDir, (err, files) => {
     if (err) throw err
-    console.log('files=====',files)
+    console.log('files=====',files)  // files===== [ 'pg5670.txt' ]
     files.forEach(file => {
         const task = (file => {
             return () => {
